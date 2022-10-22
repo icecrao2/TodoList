@@ -1,13 +1,12 @@
 import './App.css'
-import styles from './test.module.scss'
+import { Header } from './components/Header.jsx';
+import { Body } from './components/Body.jsx';
 
 export default function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <span className={styles.test}>test</span>
-    </div>
+    <div className="flex flex-col h-full">
+      <Header />
+      <Body />
+    </div >
   )
 }
