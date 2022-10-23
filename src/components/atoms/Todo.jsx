@@ -1,4 +1,4 @@
-import styles from './scss/Todo.module.scss';
+import './scss/Todo.scss';
 import { DeleteIcon } from './';
 
 export const Todo = ({
@@ -9,12 +9,15 @@ export const Todo = ({
   onDrag,
   id,
   text,
+  onDelete,
 }) => {
+
+
 
 
   return (
     <li
-      className="list-disc list-inside mb-2.5 text-justify text-2xl font-extrabold flex justify-between "
+      className="list-disc list-inside mb-2.5 text-2xl font-extrabold flex justify-between items-baseline leading-relaxed"
       key={id}
       id={id}
       draggable="true"
@@ -23,9 +26,8 @@ export const Todo = ({
       onDragLeave={onDragLeave}
       onDrop={onDrop}
       onDrag={onDrag}
-    >{text}
-
-      <DeleteIcon />
+    ><span className="flex-1 mr-2">{text}</span>
+      <DeleteIcon id={id} onDelete={onDelete} />
     </li>
   )
 

@@ -1,0 +1,20 @@
+@mixin cursor_pointer{
+  cursor:pointer;
+  background-color: rgb(245 158 11);
+}
+
+
+ul{
+  li{
+
+    img, span{
+      transition: 0.1s ease-in-out;
+    }
+    
+    img:hover, span:hover{
+      @include cursor_pointer;
+    }
+    
+  }
+}
+

@@ -5,7 +5,7 @@ import { Body } from './components/Body.jsx';
 export default function App() {
   return (
     <div className="flex flex-col h-full bg-sky-300">
-      <Header title={"LIST"} />
+      <Header title={"TODO"} />
       <Body />
     </div >
   )
