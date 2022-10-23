@@ -19,7 +19,6 @@ module.exports = {
       lime: colors.lime,
       sky: colors.sky,
     },
-    extend: {},
   },
   plugins: [],
 }
