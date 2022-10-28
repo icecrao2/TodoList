@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
-  "homepage": "https://icecrao2.github.io/TodoList/",
+  "homepage": "https://icecrao2.github.io/TodoList",
   "keywords": [],
   "author": "",
   "license": "ISC",
