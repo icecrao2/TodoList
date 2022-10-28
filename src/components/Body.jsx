@@ -9,7 +9,7 @@ export const Body = () => {
   const KEY_LIST = "list";
 
 
-  const initialArray = JSON.parse(storageUtil.getData(KEY_LIST));
+  const initialArray = JSON.parse(storageUtil.getData(KEY_LIST)) || [];
   const
     { arr,
       setArr,
