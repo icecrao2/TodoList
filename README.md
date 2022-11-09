@@ -23,4 +23,4 @@ npm start
 
 - 사진
 
-![img1](/bandicam 2022-11-09 22-55-10-799.mp4)
+![img1](/video.mp4)
