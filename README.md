@@ -23,6 +23,4 @@ npm start
 
 - 사진
 
-![img1](/MovieB.PNG)
-![img2](/MovieB2.PNG)
-![img3](/MovieB3.PNG)
+![img1](/bandicam 2022-11-09 22-55-10-799.mp4)
