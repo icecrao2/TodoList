@@ -23,4 +23,4 @@ npm start
 
 - 사진
 
-![img1](/video.mp4)
+![video](/video.gif)
