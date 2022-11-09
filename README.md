@@ -1,17 +1,28 @@
-## Running React on Repl.it
+## WoongDoList -투두리스트-
+[WoongDoList](https://woongdolist.netlify.app/)
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+- 시작
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+npm start
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- 사용된 기술
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+  - React.js
+  - ES6
+  - HTML/CSS
+  - tailwind
+ 
+- 프로젝트 개요
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+리액트와 tailwind 환경 학습을 위한 간단한 todo list 사이트입니다!
 
-### Typescript
+- 기능
+  - 리스트 작성
+  - 리스트 삭제
+  - 리스트 위치 변경
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+- 사진
+
+![img1](/MovieB.PNG)
+![img2](/MovieB2.PNG)
+![img3](/MovieB3.PNG)
